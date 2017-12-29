@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Cpt: Molino de las flores
+Plugin Name: Cpt: crediempresa
 Plugin URI:
 Description: Agrega contenido a la página web
 Version:     1.0
@@ -28,21 +28,11 @@ if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
 	require_once dirname( __FILE__ ) . '/CMB2/init.php';
 }
 
-if(file_exists(dirname(__FILE__).'/reflexiones/cpt-reflexiones.php')){
-	require_once dirname( __FILE__ ) . '/reflexiones/cpt-reflexiones.php';
+if(file_exists(dirname(__FILE__).'/slide/cpt-slide.php')){
+	require_once dirname( __FILE__ ) . '/slide/cpt-slide.php';
 }
 
-if(file_exists(dirname(__FILE__).'/editoriales/cpt-editoriales.php')){
-	require_once dirname( __FILE__ ) . '/editoriales/cpt-editoriales.php';
-}
 
-if(file_exists(dirname(__FILE__).'/presentaciones/cpt-presentaciones.php')){
-	require_once dirname( __FILE__ ) . '/presentaciones/cpt-presentaciones.php';
-}
-
-if(file_exists(dirname(__FILE__).'/books/cpt-books.php')){
-	require_once dirname( __FILE__ ) . '/books/cpt-books.php';
-}
 
 
 ?>
