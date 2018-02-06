@@ -32,6 +32,9 @@ if(file_exists(dirname(__FILE__).'/slide/cpt-slide.php')){
 	require_once dirname( __FILE__ ) . '/slide/cpt-slide.php';
 }
 
+if(file_exists(dirname(__FILE__).'/somos/cpt-somos.php')){
+	require_once dirname( __FILE__ ) . '/somos/cpt-somos.php';
+}
 
 
 
